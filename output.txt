@@ -1,0 +1,345 @@
+SEED 15
+INIT_TIME 0
+FIN_TIME 10000
+ARRIVE_MIN 2
+ARRIVE_MAX 50
+QUIT_PROB 25
+NETWORK_PROB 25
+CPU_MIN 50
+CPU_MAX 140
+DISK1_MIN 160
+DISK1_MAX 240
+DISK2_MIN 260
+DISK1_MAX 240
+NETWORK_MIN 260
+NETWORK_MAX 260
+
+At time 0, job 1 arrived CPU queue. 
+At time 0, job 1 began processing at the CPU. 
+At time 80, job 2 arrived CPU queue. 
+At time 131, job 3 arrived CPU queue. 
+At time 153, job 1 finished processing at the CPU. 
+At time 80, job 2 began processing at the CPU. 
+At time 153, job 1 arrived at Disk 1. 
+At time 153, job 1 began processing at Disk 1. 
+At time 217, job 4 arrived CPU queue. 
+At time 294, job 2 finished processing at the CPU. 
+At time 131, job 3 began processing at the CPU. 
+At time 294, job 2 arrived at Disk 1. 
+At time 311, job 5 arrived CPU queue. 
+At time 365, job 6 arrived CPU queue. 
+At time 456, job 7 arrived CPU queue. 
+At time 483, job 3 finished processing at the CPU. 
+At time 217, job 4 began processing at the CPU. 
+At time 483, job 3 arrived at Disk 2. 
+At time 483, job 3 began processing at Disk 2. 
+At time 483, job 3arrived at Network. 
+At time 483, job 3 began processing at Network.  
+At time 543, job 8 arrived CPU queue. 
+At time 606, job 9 arrived CPU queue. 
+At time 667, job 10 arrived CPU queue. 
+At time 704, job 4 finished processing at the CPU. 
+At time 311, job 5 began processing at the CPU. 
+At time 704, job 4 arrived at Disk 2. 
+At time 704, job 4arrived at Network. 
+At time 728, job 11 arrived CPU queue. 
+At time 807, job 12 arrived CPU queue. 
+At time 867, job 13 arrived CPU queue. 
+At time 871, job 5 finished processing at the CPU. 
+At time 365, job 6 began processing at the CPU. 
+At time 871, job 5 arrived at Disk 1. 
+At time 940, job 14 arrived CPU queue. 
+At time 1027, job 15 arrived CPU queue. 
+At time 1047, job 6 finished processing at the CPU. 
+At time 456, job 7 began processing at the CPU. 
+At time 1047, job 6 arrived at Disk 2. 
+At time 1047, job 6arrived at Network. 
+At time 1081, job 16 arrived CPU queue. 
+At time 1134, job 17 arrived CPU queue. 
+At time 1223, job 18 arrived CPU queue. 
+At time 1230, job 7 finished processing at the CPU. 
+At time 543, job 8 began processing at the CPU. 
+At time 1230, job 7 arrived at Disk 1. 
+At time 1315, job 19 arrived CPU queue. 
+At time 1377, job 20 arrived CPU queue. 
+At time 1418, job 8 finished processing at the CPU. 
+At time 606, job 9 began processing at the CPU. 
+At time 1418, job 8 arrived at Disk 2. 
+At time 1418, job 8arrived at Network. 
+At time 1473, job 21 arrived CPU queue. 
+At time 1535, job 22 arrived CPU queue. 
+At time 1584, job 9 finished processing at the CPU. 
+At time 667, job 10 began processing at the CPU. 
+At time 1584, job 9 arrived at Disk 1. 
+At time 1600, job 23 arrived CPU queue. 
+At time 1669, job 24 arrived CPU queue. 
+At time 1740, job 25 arrived CPU queue. 
+At time 1799, job 10 finished processing at the CPU. 
+At time 728, job 11 began processing at the CPU. 
+At time 1799, job 10 arrived at Disk 2. 
+At time 1799, job 10arrived at Network. 
+At time 1830, job 26 arrived CPU queue. 
+At time 1926, job 27 arrived CPU queue. 
+At time 1942, job 11 finished processing at the CPU. 
+At time 807, job 12 began processing at the CPU. 
+At time 1942, job 11 arrived at Disk 1. 
+At time 2019, job 28 arrived CPU queue. 
+At time 2077, job 29 arrived CPU queue. 
+At time 2114, job 12 finished processing at the CPU. 
+At time 867, job 13 began processing at the CPU. 
+At time 2114, job 12 arrived at Disk 2. 
+At time 2114, job 12arrived at Network. 
+At time 2143, job 30 arrived CPU queue. 
+At time 2195, job 31 arrived CPU queue. 
+At time 2268, job 32 arrived CPU queue. 
+At time 2324, job 13 finished processing at the CPU. 
+At time 940, job 14 began processing at the CPU. 
+At time 2324, job 13 arrived at Disk 1. 
+At time 2331, job 33 arrived CPU queue. 
+At time 2414, job 34 arrived CPU queue. 
+At time 2475, job 35 arrived CPU queue. 
+At time 2550, job 14 finished processing at the CPU. 
+At time 1027, job 15 began processing at the CPU. 
+At time 2550, job 14 arrived at Disk 2. 
+At time 2550, job 14arrived at Network. 
+At time 2560, job 36 arrived CPU queue. 
+At time 2610, job 37 arrived CPU queue. 
+At time 2704, job 38 arrived CPU queue. 
+At time 2761, job 15 finished processing at the CPU. 
+At time 1081, job 16 began processing at the CPU. 
+At time 2761, job 15 arrived at Disk 1. 
+At time 2769, job 39 arrived CPU queue. 
+At time 2854, job 40 arrived CPU queue. 
+At time 2907, job 41 arrived CPU queue. 
+At time 2920, job 16 finished processing at the CPU. 
+At time 1134, job 17 began processing at the CPU. 
+At time 2920, job 16 arrived at Disk 2. 
+At time 2920, job 16arrived at Network. 
+At time 2997, job 42 arrived CPU queue. 
+At time 3091, job 43 arrived CPU queue. 
+At time 3093, job 17 finished processing at the CPU. 
+At time 1223, job 18 began processing at the CPU. 
+At time 3093, job 17 arrived at Disk 1. 
+At time 3180, job 44 arrived CPU queue. 
+At time 3256, job 45 arrived CPU queue. 
+At time 3301, job 18 finished processing at the CPU. 
+At time 1315, job 19 began processing at the CPU. 
+At time 3301, job 18 arrived at Disk 2. 
+At time 3301, job 18arrived at Network. 
+At time 3306, job 46 arrived CPU queue. 
+At time 3375, job 47 arrived CPU queue. 
+At time 3445, job 48 arrived CPU queue. 
+At time 3512, job 19 finished processing at the CPU. 
+At time 1377, job 20 began processing at the CPU. 
+At time 3512, job 19 arrived at Disk 1. 
+At time 3519, job 49 arrived CPU queue. 
+At time 3605, job 50 arrived CPU queue. 
+At time 3659, job 51 arrived CPU queue. 
+At time 3695, job 20 finished processing at the CPU. 
+At time 1473, job 21 began processing at the CPU. 
+At time 3695, job 20 arrived at Disk 2. 
+At time 3695, job 20arrived at Network. 
+At time 3740, job 52 arrived CPU queue. 
+At time 3812, job 53 arrived CPU queue. 
+At time 3887, job 21 finished processing at the CPU. 
+At time 1535, job 22 began processing at the CPU. 
+At time 3887, job 21 arrived at Disk 1. 
+At time 3895, job 54 arrived CPU queue. 
+At time 3957, job 55 arrived CPU queue. 
+At time 4021, job 56 arrived CPU queue. 
+At time 4083, job 57 arrived CPU queue. 
+At time 4104, job 22 finished processing at the CPU. 
+At time 1600, job 23 began processing at the CPU. 
+At time 4104, job 22 arrived at Disk 2. 
+At time 4104, job 22arrived at Network. 
+At time 4164, job 58 arrived CPU queue. 
+At time 4250, job 59 arrived CPU queue. 
+At time 4300, job 60 arrived CPU queue. 
+At time 4328, job 23 finished processing at the CPU. 
+At time 1669, job 24 began processing at the CPU. 
+At time 4328, job 23 arrived at Disk 1. 
+At time 4359, job 61 arrived CPU queue. 
+At time 4445, job 62 arrived CPU queue. 
+At time 4500, job 63 arrived CPU queue. 
+At time 4513, job 24 finished processing at the CPU. 
+At time 1740, job 25 began processing at the CPU. 
+At time 4513, job 24 arrived at Disk 2. 
+At time 4513, job 24arrived at Network. 
+At time 4574, job 64 arrived CPU queue. 
+At time 4626, job 65 arrived CPU queue. 
+At time 4660, job 25 finished processing at the CPU. 
+At time 1830, job 26 began processing at the CPU. 
+At time 4660, job 25 arrived at Disk 1. 
+At time 4694, job 66 arrived CPU queue. 
+At time 4766, job 67 arrived CPU queue. 
+At time 4845, job 68 arrived CPU queue. 
+At time 4853, job 26 finished processing at the CPU. 
+At time 1926, job 27 began processing at the CPU. 
+At time 4853, job 26 arrived at Disk 2. 
+At time 4853, job 26arrived at Network. 
+At time 4935, job 69 arrived CPU queue. 
+At time 4987, job 70 arrived CPU queue. 
+At time 5047, job 27 finished processing at the CPU. 
+At time 2019, job 28 began processing at the CPU. 
+At time 5047, job 27 arrived at Disk 1. 
+At time 5078, job 71 arrived CPU queue. 
+At time 5162, job 72 arrived CPU queue. 
+At time 5249, job 73 arrived CPU queue. 
+At time 5265, job 28 finished processing at the CPU. 
+At time 2077, job 29 began processing at the CPU. 
+At time 5265, job 28 arrived at Disk 2. 
+At time 5265, job 28arrived at Network. 
+At time 5324, job 74 arrived CPU queue. 
+At time 5389, job 75 arrived CPU queue. 
+At time 5464, job 76 arrived CPU queue. 
+At time 5485, job 29 finished processing at the CPU. 
+At time 2143, job 30 began processing at the CPU. 
+At time 5485, job 29 arrived at Disk 1. 
+At time 5553, job 77 arrived CPU queue. 
+At time 5610, job 78 arrived CPU queue. 
+At time 5673, job 79 arrived CPU queue. 
+At time 5677, job 30 finished processing at the CPU. 
+At time 2195, job 31 began processing at the CPU. 
+At time 5677, job 30 arrived at Disk 2. 
+At time 5677, job 30arrived at Network. 
+At time 5757, job 80 arrived CPU queue. 
+At time 5821, job 81 arrived CPU queue. 
+At time 5859, job 31 finished processing at the CPU. 
+At time 2268, job 32 began processing at the CPU. 
+At time 5859, job 31 arrived at Disk 1. 
+At time 5884, job 82 arrived CPU queue. 
+At time 5949, job 83 arrived CPU queue. 
+At time 6037, job 84 arrived CPU queue. 
+At time 6052, job 32 finished processing at the CPU. 
+At time 2331, job 33 began processing at the CPU. 
+At time 6052, job 32 arrived at Disk 2. 
+At time 6052, job 32arrived at Network. 
+At time 6112, job 85 arrived CPU queue. 
+At time 6170, job 86 arrived CPU queue. 
+At time 6245, job 87 arrived CPU queue. 
+At time 6259, job 33 finished processing at the CPU. 
+At time 2414, job 34 began processing at the CPU. 
+At time 6259, job 33 arrived at Disk 1. 
+At time 6318, job 88 arrived CPU queue. 
+At time 6408, job 89 arrived CPU queue. 
+At time 6477, job 34 finished processing at the CPU. 
+At time 2475, job 35 began processing at the CPU. 
+At time 6477, job 34 arrived at Disk 2. 
+At time 6477, job 34arrived at Network. 
+At time 6484, job 90 arrived CPU queue. 
+At time 6567, job 91 arrived CPU queue. 
+At time 6660, job 92 arrived CPU queue. 
+At time 6701, job 35 finished processing at the CPU. 
+At time 2560, job 36 began processing at the CPU. 
+At time 6701, job 35 arrived at Disk 1. 
+At time 6737, job 93 arrived CPU queue. 
+At time 6821, job 94 arrived CPU queue. 
+At time 6890, job 36 finished processing at the CPU. 
+At time 2610, job 37 began processing at the CPU. 
+At time 6890, job 36 arrived at Disk 2. 
+At time 6890, job 36arrived at Network. 
+At time 6904, job 95 arrived CPU queue. 
+At time 6980, job 96 arrived CPU queue. 
+At time 7046, job 37 finished processing at the CPU. 
+At time 2704, job 38 began processing at the CPU. 
+At time 7046, job 37 arrived at Disk 1. 
+At time 7063, job 97 arrived CPU queue. 
+At time 7157, job 98 arrived CPU queue. 
+At time 7217, job 99 arrived CPU queue. 
+At time 7249, job 38 finished processing at the CPU. 
+At time 2769, job 39 began processing at the CPU. 
+At time 7249, job 38 arrived at Disk 2. 
+At time 7249, job 38arrived at Network. 
+At time 7292, job 100 arrived CPU queue. 
+At time 7342, job 101 arrived CPU queue. 
+At time 7402, job 39 finished processing at the CPU. 
+At time 2854, job 40 began processing at the CPU. 
+At time 7402, job 39 arrived at Disk 1. 
+At time 7420, job 102 arrived CPU queue. 
+At time 7479, job 103 arrived CPU queue. 
+At time 7552, job 40 finished processing at the CPU. 
+At time 2907, job 41 began processing at the CPU. 
+At time 7552, job 40 arrived at Disk 2. 
+At time 7552, job 40arrived at Network. 
+At time 7556, job 104 arrived CPU queue. 
+At time 7619, job 105 arrived CPU queue. 
+At time 7692, job 106 arrived CPU queue. 
+At time 7736, job 41 finished processing at the CPU. 
+At time 2997, job 42 began processing at the CPU. 
+At time 7736, job 41 arrived at Disk 1. 
+At time 7773, job 107 arrived CPU queue. 
+At time 7827, job 108 arrived CPU queue. 
+At time 7879, job 42 finished processing at the CPU. 
+At time 3091, job 43 began processing at the CPU. 
+At time 7879, job 42 arrived at Disk 2. 
+At time 7879, job 42arrived at Network. 
+At time 7915, job 109 arrived CPU queue. 
+At time 7980, job 110 arrived CPU queue. 
+At time 8049, job 111 arrived CPU queue. 
+At time 8099, job 43 finished processing at the CPU. 
+At time 3180, job 44 began processing at the CPU. 
+At time 8099, job 43 arrived at Disk 1. 
+At time 8110, job 112 arrived CPU queue. 
+At time 8185, job 113 arrived CPU queue. 
+At time 8260, job 114 arrived CPU queue. 
+At time 8281, job 44 finished processing at the CPU. 
+At time 3256, job 45 began processing at the CPU. 
+At time 8281, job 44 arrived at Disk 2. 
+At time 8281, job 44arrived at Network. 
+At time 8313, job 115 arrived CPU queue. 
+At time 8381, job 116 arrived CPU queue. 
+At time 8436, job 117 arrived CPU queue. 
+At time 8478, job 45 finished processing at the CPU. 
+At time 3306, job 46 began processing at the CPU. 
+At time 8478, job 45 arrived at Disk 1. 
+At time 8491, job 118 arrived CPU queue. 
+At time 8555, job 119 arrived CPU queue. 
+At time 8618, job 120 arrived CPU queue. 
+At time 8671, job 121 arrived CPU queue. 
+At time 8680, job 46 finished processing at the CPU. 
+At time 3375, job 47 began processing at the CPU. 
+At time 8680, job 46 arrived at Disk 2. 
+At time 8680, job 46arrived at Network. 
+At time 8749, job 122 arrived CPU queue. 
+At time 8842, job 123 arrived CPU queue. 
+At time 8898, job 124 arrived CPU queue. 
+At time 8903, job 47 finished processing at the CPU. 
+At time 3445, job 48 began processing at the CPU. 
+At time 8903, job 47 arrived at Disk 1. 
+At time 8982, job 125 arrived CPU queue. 
+At time 9050, job 48 finished processing at the CPU. 
+At time 3519, job 49 began processing at the CPU. 
+At time 9050, job 48 arrived at Disk 2. 
+At time 9050, job 48arrived at Network. 
+At time 9062, job 126 arrived CPU queue. 
+At time 9148, job 127 arrived CPU queue. 
+At time 9218, job 128 arrived CPU queue. 
+At time 9241, job 49 finished processing at the CPU. 
+At time 3605, job 50 began processing at the CPU. 
+At time 9241, job 49 arrived at Disk 1. 
+At time 9272, job 129 arrived CPU queue. 
+At time 9330, job 130 arrived CPU queue. 
+At time 9390, job 50 finished processing at the CPU. 
+At time 3659, job 51 began processing at the CPU. 
+At time 9390, job 50 arrived at Disk 2. 
+At time 9390, job 50arrived at Network. 
+At time 9391, job 131 arrived CPU queue. 
+At time 9445, job 132 arrived CPU queue. 
+At time 9514, job 133 arrived CPU queue. 
+At time 9583, job 134 arrived CPU queue. 
+At time 9589, job 51 finished processing at the CPU. 
+At time 3740, job 52 began processing at the CPU. 
+At time 9589, job 51 arrived at Disk 1. 
+At time 9670, job 135 arrived CPU queue. 
+At time 9723, job 136 arrived CPU queue. 
+At time 9783, job 137 arrived CPU queue. 
+At time 9784, job 52 finished processing at the CPU. 
+At time 3812, job 53 began processing at the CPU. 
+At time 9784, job 52 arrived at Disk 2. 
+At time 9784, job 52arrived at Network. 
+At time 9852, job 138 arrived CPU queue. 
+At time 9919, job 139 arrived CPU queue. 
+At time 9966, job 53 finished processing at the CPU. 
+At time 3895, job 54 began processing at the CPU. 
+At time 9966, job 53 arrived at Disk 1. 
+At time 9981, job 140 arrived CPU queue. 
